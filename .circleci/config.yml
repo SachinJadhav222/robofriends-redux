@@ -13,6 +13,7 @@ workflows:
    # Run the welcome/run job in its own container
     jobs:
      - sachin/run
-     -soham/run
+  soham:
+    jobs:
+    - soham/run
   
-     
