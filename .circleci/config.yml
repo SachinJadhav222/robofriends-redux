@@ -2,15 +2,11 @@
 version: 2.1
 jobs:
    sachin:
-    docker: 
-     image: circleci/ruby:2.4.1
     steps:
      - run: echo '"Hellow Sachin"
 
    soham:
-    docker: 
-     image: circleci/ruby:2.4.1
-    steps:
+    steps: 
      - run: echo '"Hellow Soham"
 
 
