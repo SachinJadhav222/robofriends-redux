@@ -3,12 +3,12 @@ version: 2.1
 jobs:
    sachin:
     steps:
-    - checkout
+   
     - run: echo '"Hellow Sachin"
 
   soham:
     steps:
-    - checkout
+    
     - run: echo '"Hellow Soham"
 
 
